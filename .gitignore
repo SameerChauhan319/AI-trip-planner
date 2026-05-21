@@ -1,0 +1,20 @@
+# Sensitive Environment files
+.env
+.env.local
+.env.*.local
+
+# Python Caches & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local database and runtimes
+database/trips.db
+.streamlit/
